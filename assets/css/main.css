@@ -136,6 +136,7 @@ input, select, textarea {
 
 		h2.alt {
 			color: #fff;
+			font-weight: 300;
 		}
 
 			h2.alt strong {
@@ -148,6 +149,7 @@ input, select, textarea {
 
 	header {
 		margin: 0 0 2em 0;
+		font-weight: 400;
 	}
 
 		header > p {
