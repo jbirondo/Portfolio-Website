@@ -128,14 +128,18 @@ input, select, textarea {
 	h2 {
 		font-size: 2em;
 		letter-spacing: -1px;
+		text-shadow: 1px 0 0 #000,
+		0 -1px 0 #000,
+		0 1px 0 #000,
+		-1px 0 0 #000;
 	}
 
 		h2.alt {
-			color: #888;
+			color: #fff;
 		}
 
 			h2.alt strong {
-				color: #666;
+				color: #fff;
 			}
 
 	h3 {
@@ -147,7 +151,13 @@ input, select, textarea {
 	}
 
 		header > p {
+			text-shadow: 1px 0 0 #000,
+			0 -1px 0 #000,
+			0 1px 0 #000,
+			-1px 0 0 #000;
 			margin: 1em 0 0 0;
+			font-weight: 500;
+			color: #fff
 		}
 
 	footer {
@@ -2223,7 +2233,7 @@ input, select, textarea {
 			}
 
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
-					color: inherit;
+					color: rgb(216, 216, 216);
 				}
 
 				#main > section.dark strong {
